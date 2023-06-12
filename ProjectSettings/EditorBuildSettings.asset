@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: 4ec8beb6cd6257a4680ec7a123142dfb
   - enabled: 1
+    path: Assets/Scenes/Card.unity
+    guid: bb404ae3d630a77419daeba81553fbb4
+  - enabled: 1
     path: Assets/Scenes/Level-1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
