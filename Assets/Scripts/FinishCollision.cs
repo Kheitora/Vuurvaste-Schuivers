@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class FinishCollision : MonoBehaviour
 {
-    public int nextSceneBuildIndex; 
+    public int nextSceneBuildIndex; // The build index of the scene to load after collision
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(nextSceneBuildIndex);
         }
